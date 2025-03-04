@@ -5,13 +5,10 @@ using namespace std;
 
 #include <iostream>
 #include <string>
+#include "player.h"
 
 class Computer : public Player {
     public:
-        Computer() {
-            name = "pc";
-        };
-
         char makeMove() {
             return 'R';
         };

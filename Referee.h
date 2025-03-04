@@ -5,6 +5,7 @@ using namespace std;
 
 #include <iostream>
 #include <string>
+#include "player.h"
 
 class Referee {
     public:

@@ -5,13 +5,10 @@ using namespace std;
 
 #include <iostream>
 #include <string>
+#include "player.h"
 
 class Human : public Player {
     public:
-        Human() {
-            name = "hu";
-        };
-
         char makeMove() {
             char move;
             cout << "Enter move: ";
