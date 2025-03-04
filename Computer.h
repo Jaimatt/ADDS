@@ -6,7 +6,7 @@ using namespace std;
 #include <iostream>
 #include <string>
 
-class Computer : private Player {
+class Computer : public Player {
     char makeMove() {
         return 'R';
     };

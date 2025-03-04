@@ -6,7 +6,7 @@ using namespace std;
 #include <iostream>
 #include <string>
 
-class Human : private Player {
+class Human : public Player {
     char makeMove() {
         char move;
         cout << "Enter move: ";
