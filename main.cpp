@@ -9,8 +9,8 @@
 using namespace std;
 
 int main() {
-    Player * jai = new Human("jai");
-    Player * bot = new Computer("pc");
+    Player * jai = new Human;
+    Player * bot = new Computer;
 
     Referee * ref = new Referee;
 

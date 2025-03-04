@@ -8,8 +8,8 @@ using namespace std;
 
 class Human : public Player {
     public:
-        Human(string n) {
-            name = n;
+        Human() {
+            name = "hu";
         };
 
         char makeMove() {
