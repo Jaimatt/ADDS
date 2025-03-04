@@ -9,6 +9,11 @@ using namespace std;
 
 class Human : public Player {
     public:
+
+        Human() {
+            name = "poom";
+        }
+
         char makeMove() {
             char move;
             cout << "Enter move: ";

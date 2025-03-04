@@ -9,6 +9,11 @@ using namespace std;
 
 class Computer : public Player {
     public:
+
+        Computer() {
+            name = "somp";
+        }
+
         char makeMove() {
             return 'R';
         };

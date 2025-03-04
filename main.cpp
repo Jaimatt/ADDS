@@ -16,5 +16,11 @@ int main() {
 
     Player * winner = ref->refGame(jai, bot);
 
-    cout << winner->getName() << " wins" << endl;
+    if (winner == jai) {
+        cout << "human" << endl;
+    } else if (winner == bot) {
+        cout << "computer" << endl;
+    } else {
+        cout << "tie" << endl;
+    }
 }
