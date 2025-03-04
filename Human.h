@@ -7,12 +7,17 @@ using namespace std;
 #include <string>
 
 class Human : public Player {
-    char makeMove() {
-        char move;
-        cout << "Enter move: ";
-        cin >> move;
-        return move;
-    };
+    public:
+        Human(string n) {
+            name = n;
+        };
+
+        char makeMove() {
+            char move;
+            cout << "Enter move: ";
+            cin >> move;
+            return move;
+        };
 };
 
 #endif

@@ -7,9 +7,14 @@ using namespace std;
 #include <string>
 
 class Computer : public Player {
-    char makeMove() {
-        return 'R';
-    };
+    public:
+        Computer(string n) {
+            name = n;
+        };
+
+        char makeMove() {
+            return 'R';
+        };
 };
 
 #endif

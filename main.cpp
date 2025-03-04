@@ -9,10 +9,12 @@
 using namespace std;
 
 int main() {
-    Player * jai = new Human;
-    Player * bot = new Computer;
+    Player * jai = new Human("jai");
+    Player * bot = new Computer("pc");
 
     Referee * ref = new Referee;
 
-    ref->refGame(jai, bot);
+    Player * winner = ref->refGame(jai, bot);
+
+    cout << winner->getName() << " wins" << endl;
 }
