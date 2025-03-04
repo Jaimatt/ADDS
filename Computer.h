@@ -5,7 +5,7 @@ using namespace std;
 
 #include <iostream>
 #include <string>
-#include "player.h"
+#include "Player.h"
 
 class Computer : public Player {
     public:
