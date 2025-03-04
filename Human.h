@@ -11,7 +11,7 @@ class Human : public Player {
     public:
 
         Human() {
-            name = "poom";
+            name = "Human";
         }
 
         char makeMove() {

@@ -11,7 +11,7 @@ class Computer : public Player {
     public:
 
         Computer() {
-            name = "somp";
+            name = "Computer";
         }
 
         char makeMove() {
